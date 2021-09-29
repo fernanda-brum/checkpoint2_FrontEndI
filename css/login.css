@@ -1,0 +1,191 @@
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+    padding: 30px;
+    justify-content: center;
+    align-items:center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+}
+
+.sc1{
+    width: 100%;
+    height: 1200px;
+}
+
+.form-login form {
+    width: 100%;
+}
+
+.form-login img {
+    width: 90px;
+    margin-bottom: 13px;
+    margin-top: 25px;
+}
+
+.form-login h2 {
+    
+    font-size: 23px;
+    margin-bottom: 13px;
+    margin-top: 430px;
+}
+
+.img2{
+    width: 300px;
+    height: 90px;
+    margin-left: 800px;
+    margin-bottom: 13px;
+    margin-top: 25px;
+}
+
+
+.item-form {
+    width: 100%;
+    margin: 13px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.item-form label{
+    display: block;
+    text-align: left;
+    color: white;
+    margin-bottom: 8px;
+    letter-spacing: 3px;
+    font-size: 12px;    
+}
+
+.item-form select{
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid var(--contraste-color);
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color);
+    font-family:var(--font-normal);
+    margin: 0;
+}
+
+.item-form input{
+    padding: 15px;
+    width: 100%;
+    border-radius: 8px;
+    outline: none; 
+    border: 2px solid var(--contraste-color);
+    background-color: var(--bg-color-secondary);
+    color: var(--text-color);
+    font-family:var(--font-normal);
+    font-size: 15px;
+    cursor: pointer; 
+    
+}
+
+
+
+.item-form input:focus {
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 8px 0 white;
+}
+
+.item-form input:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.item-form select:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+
+
+
+.checkbox {
+  /*   display: block;
+    cursor: pointer;
+    padding: 0.3rem; */
+    text-align: left;
+    width: 100%;
+    font-size: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=checkbox], select {
+    cursor: pointer;
+}
+
+
+
+input[type=checkbox]:focus , select:focus {
+    border: 2px solid var(--text-color);
+    box-shadow: 0 0 8px 0 white;
+}
+
+.checkbox label {
+    margin-left: 15px;
+}
+
+.tour{
+   margin-left: -10%;
+}
+
+.btn-login {
+    margin: 10px;
+    padding: 10px;
+    width:100%;
+    background-color: var(--contraste-color);
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid var(--contraste-color); 
+    font-family:var(--font-normal);
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+.btn-login:hover {
+    background-color: var(--bg-color);
+    color:hsl(0, 0%, 95%);
+    border: 2px solid var(--contraste-color); 
+    cursor: pointer;
+    transition: ease 0.5s;
+    
+}
+
+.btn-login:hover{
+    transform: translate(50px);
+}
+
+
+
+
+/* Link Ajuda */
+
+.link-ajuda {
+    margin: 10px;
+    font-size: 15px;
+    color: var(--contraste-color)
+}
+
+.link-ajuda:hover {
+    text-decoration: underline;
+    transition: ease 0.5s;
+}
+
+ @media (min-width: 320px) and (max-width:425px){
+    
+    .form-login {
+        width: 100%;
+    }
+    
+} 
+
+
+

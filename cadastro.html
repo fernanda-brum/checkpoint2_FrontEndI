@@ -1,0 +1,116 @@
+<!-- Checkpoint 2: Alunos - Fernanda Brum Rubim, Flávio Rodrigues e Henrique Brumatti -->
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./img/brand.png" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/0f7ed121de.js" crossorigin="anonymous" defer></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  
+  <!-- CSS Login -->
+  <link rel="stylesheet" href="./css/login.css">
+   
+  <title>Cadastro</title>
+  
+</head>
+
+<body>
+
+  
+
+  <header>
+
+    <img class="img2" src="./img/NOVA_MARCA_GOVERNO_ESTADO_SC_2019.png" alt="icone Logo"><br>
+
+  </header>
+
+  <img class="sc1" src="img/SC1.jpg" alt="icone Logo"><br>
+  
+
+  <!-- Main content Adicionar dentro do main-->
+  <main class="container">
+  <!-- Formulário Cadastro --> 
+  
+    <div class="form-login">
+      <h2>Cadastre-se</h2>
+      <form class="column-flex">
+        
+        <div class="item-form">
+          <label for="Nome">Nome Usuário:</label>
+          <input class="name_2" type="text" name="Nome" id="Nome" placeholder="Nome e Sobrenome" maxlength="100">
+          </div>
+
+        <div class="item-form">
+          <label for="email">email Usuário:</label>
+          <input type="email" name="email" id="email" placeholder="Email">
+          </div>
+
+          <div class="item-form">
+            <label for="password">Senha</label>
+            <input type="password" name="password" id="password" placeholder="Senha">
+            </div>
+
+          <div class="item-form">
+            <label for="Telefone">Telefone:</label>
+            <input type="number" name="Telefone" id="Telefone" placeholder="Digite seu telefone">
+            </div>
+
+        <div class="item-form">
+          <label for="estados">Cidades</label>
+          <select name="estados" id="estados" class="item-form input-control" required>
+              <option disabled selected>Escolha sua cidade</option>
+              <option value="AC">Florianópolis</option>
+              <option value="AL">São José</option>
+              <option value="AP">Joinville</option>
+              <option value="AM">Blumenau</option>
+              
+          </select>
+      </div>
+
+      <div>
+        <label for="idade">Quais seus interesses na cidade?</label><br>
+        <input class="tour" type="checkbox" name="data" id="tourist" value="Tourist">
+        <label for="tourist">Turista</label><br>
+        <input type="checkbox" name="data" id="resident" value="Resident">
+        <label for="nao">Residente</label><br>
+        <input type="checkbox" name="data" id="student" value="Student">
+        <label for="student">Estudante</label><br>
+
+        </div>
+
+
+
+
+        <div class="item-form">
+        <label for="data">Data de nascimento:</label>
+        <input type="date" name="data" id="data" placeholder="Data">
+        </div>
+
+        <div class="maior_idade">
+          <label for="idade">É maior de idade?</label><br>
+          <input type="radio" name="data" id="sim" value="Sim">
+          <label for="sim">Sim</label><br>
+          <input type="radio" name="data" id="nao" value="Não">
+          <label for="nao">Não</label>
+
+          </div>
+          
+            
+
+        <button class="btn-login"type="submit">Cadastrar</button>
+        <button class="btn-login" type="reset">Resetar Campos</button>
+
+    </form>
+    </div>
+    <!-- Fim Form Login -->
+  </main>
+
+
+</body>
+
+</html>
